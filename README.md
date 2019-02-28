@@ -1,5 +1,7 @@
 # Setup Ubuntu on Overpowered Laptop
 
+0. Unplug external monitors until after you've installed the nvidia driver.
+
 1. If touchpad is not working, install the updated kernel. 
 ```bash
 sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
