@@ -59,3 +59,4 @@ sudo apt install -y gnome-tweaks
   
   * Install a dark theme in emacs. https://stackoverflow.com/a/24836870 https://draculatheme.com/emacs/
 
+10. Install pass. https://medium.com/@chasinglogic/the-definitive-guide-to-password-store-c337a8f023a1
