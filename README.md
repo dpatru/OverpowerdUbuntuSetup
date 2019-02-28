@@ -48,14 +48,14 @@ sudo apt-get install ubuntu-restricted-extras
 
 9. Enable dark theme. https://help.gulshankumar.net/t/how-to-enable-dark-theme-in-ubuntu-18-04/3411.
 
-  a. Make sure that gnome-tweaks in installed. 
+  1. Make sure that gnome-tweaks in installed. 
 ```bash
 sudo apt install -y gnome-tweaks
 ```
 
-  b. Set dark theme: Tweaks -> Appearance -> Applications -> Adwaita-dark
+  2. Set dark theme: Tweaks -> Appearance -> Applications -> Adwaita-dark
   
-  c. Change background: Setting -> Background -> Black color
+  3. Change background: Setting -> Background -> Black color
   
-
+  4. Install a dark theme in emacs. https://stackoverflow.com/a/24836870 https://draculatheme.com/emacs/
 
