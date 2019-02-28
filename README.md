@@ -21,4 +21,11 @@ sudo apt install emacs gnome-tweak-tool
 sudo ufw enable
 ```    
     
-5. Enable hdmi sound, see https://askubuntu.com/questions/1060061/nvidia-optimus-hdmi-no-sound
+5. Install proprietary nvidia drivers. See https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux
+```bash
+ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+reboot
+```
+
+6. Enable hdmi sound, see https://askubuntu.com/questions/1060061/nvidia-optimus-hdmi-no-sound
