@@ -14,9 +14,9 @@ sudo apt install emacs gnome-tweaks
 
 3. Map CapsLook to Ctrl
 
-    a. super, then tweaks to start gnome tweak tool. 
+  * super, then tweaks to start gnome tweak tool. 
     
-    b. Keyboard & Mouse -> Additional Layout Options -> Caps Lock behavior -> Caps Lock is also a Ctrl
+  * Keyboard & Mouse -> Additional Layout Options -> Caps Lock behavior -> Caps Lock is also a Ctrl
     
 4. Enable Firewall
 ```bash
