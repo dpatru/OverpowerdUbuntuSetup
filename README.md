@@ -9,10 +9,10 @@ sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
 
 2. Install emacs, gnome-tweak-tool
 ```bash
-sudo apt install emacs gnome-tweak-tool
+sudo apt install emacs gnome-tweaks
 ```
 
-3. Map CapsLook to Ctr
+3. Map CapsLook to Ctrl
 
     a. super, then tweaks to start gnome tweak tool. 
     
@@ -33,8 +33,29 @@ reboot
 ```
 
 7. Enable hdmi sound, see https://askubuntu.com/questions/1060061/nvidia-optimus-hdmi-no-sound
+```bash
+sudo cp fix-hdmi-audio.service
+chmod +x fix-hdmi-audio.sh
+sudo cp fix-hdmi-audio.sh /usr/local/bin/
+systemctl enable fix-hdmi-audio.service
+reboot
+```
 
-8. Add video support. https://askubuntu.com/questions/475351/firefox-html5-video-support
+8. Add video format support. https://askubuntu.com/questions/475351/firefox-html5-video-support
 ```bash
 sudo apt-get install ubuntu-restricted-extras
 ```
+
+9. Enable dark theme. https://help.gulshankumar.net/t/how-to-enable-dark-theme-in-ubuntu-18-04/3411.
+
+  a. Make sure that gnome-tweaks in installed. 
+```bash
+sudo apt install -y gnome-tweaks
+```
+
+  b. Set dark theme: Tweaks -> Appearance -> Applications -> Adwaita-dark
+  
+  c. Change background: Setting -> Background -> Black color
+  
+
+
